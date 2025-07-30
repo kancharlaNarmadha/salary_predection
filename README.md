@@ -39,9 +39,9 @@ Each model was trained and tested on a global salary dataset, and evaluated usin
 
 Below is a snapshot of the working application:
 
-![Salary Prediction App Screenshot](images/app_screenshot.png)
+![Salary Prediction App Screenshot](![WhatsApp Image 2025-07-30 at 20 04 25_77850714](https://github.com/user-attachments/assets/b7784e04-8970-446a-bf4a-b35bf43342c5)
+)
 
-> *(Make sure to place the image in an `images/` folder inside your project directory)*
 
 ---
 
