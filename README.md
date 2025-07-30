@@ -65,7 +65,7 @@ Below is a snapshot of the working application:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/SHARAN-MJ/salary_prediction_streamlit.git
+   git clone https://github.com/kancharla-namradha/salary_prediction_streamlit.git
    cd salary_prediction_streamlit
    ```
 ## Install dependencies:
