@@ -1,3 +1,4 @@
+
 # 💼 Salary Prediction App (Streamlit)
 
 This is a Machine Learning-based web application built using **Streamlit** that predicts employee salaries (in USD and INR) based on job title, company location, experience level, and other relevant features. The backend is powered by trained ML models like Linear Regression, Decision Tree, and Random Forest, with Random Forest selected as the best performer.
@@ -37,10 +38,12 @@ Each model was trained and tested on a global salary dataset, and evaluated usin
 
 ## 📷 Screenshot
 
-Below is a snapshot of the working application:
-
-![Salary Prediction App Screenshot](![WhatsApp Image 2025-07-30 at 20 04 25_77850714](https://github.com/user-attachments/assets/b7784e04-8970-446a-bf4a-b35bf43342c5)
-)
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232335" src="https://github.com/user-attachments/assets/e3772f7e-000b-4cc9-81fe-a22f550a35c9" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232345" src="https://github.com/user-attachments/assets/e4226dab-6318-46a7-bfe6-e8ce61951b26" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232547" src="https://github.com/user-attachments/assets/9a844662-9f8a-4fcd-9405-2c5819cb86a4" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232519" src="https://github.com/user-attachments/assets/08e11ba6-a5dd-4e98-936c-f552459a5970" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232614" src="https://github.com/user-attachments/assets/14bc02a5-dad4-4596-8e27-e5b0035892a2" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232650" src="https://github.com/user-attachments/assets/c03466b4-d881-4659-be9e-259b03822bd2" />
 
 
 ---
@@ -55,7 +58,33 @@ Below is a snapshot of the working application:
 
 ## 📁 Project Structure
 
-![alt text](Gemini_Generated_Image_nu8lpinu8lpinu8l.png)
+```
+SALARY_PREDICTION_STREAMLIT/
+│
+├── salary_prediction_streamlit/       # Main project folder
+│   ├── __pycache__/                    # Cache for this folder
+│   │
+│   ├── assets/                         # UI assets and templates
+│   │   ├── animation.json              # Lottie animation file
+│   │   ├── job_titles.json             # Job title reference data
+│   │   └── template.csv                # Data template for download/upload
+│   │
+│   ├── data/                           # Dataset folder
+│   │   └── DataScience_salaries_2025.csv
+│   │
+│   ├── models/                         # Trained model files
+│   │   ├── encoders.pkl                # Label encoders
+│   │   ├── lr_model.pkl                # Linear Regression model
+│   │   ├── meta_model.pkl              # Stacking meta-learner
+│   │   ├── tree_model.pkl              # Decision Tree model
+│   │   └── xgb_model.pkl               # XGBoost model
+│   │
+│   ├── app.py                          # Streamlit web application
+│   ├── train_model.py                  # ML model training script
+│   ├── requirements.txt                # Python dependencies
+│   ├── text.txt                        # Possibly temp notes or logs
+│   └── README.md                       # Project documentation
+```
 
 
 ---
@@ -65,8 +94,8 @@ Below is a snapshot of the working application:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/kancharla-narmadha/salary_prediction_streamlit.git
-   cd salary_prediction_streamlit
+   git clone https://github.com/kancharlaNarmadha/salary_predection.git
+   cd salary_prediction
    ```
 ## Install dependencies:
    ```bash
@@ -80,7 +109,7 @@ streamlit run app.py
 
 ## Acknowledgements
 
-Project by Sharan MJ, AIML department, Saveetha Engineering College
+Project by Kancharla Narmadha, CSE(IOT) department, Saveetha Engineering College
 
 Special thanks to mentors and online communities supporting ML education
 
